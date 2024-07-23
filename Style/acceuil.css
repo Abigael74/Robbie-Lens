@@ -1,0 +1,84 @@
+
+.bloc-presentation
+{
+    display: flex;
+    justify-content: center;
+    padding:30 px;
+    height: 653px;
+}
+.bloc-presentation .bloc_texte
+{
+    width:410px;
+    display: flex;
+    flex-direction: column;
+}
+.bloc-presentation img
+{
+    padding: 50px;
+}
+.bloc_projet
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.grid_images
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 311px 311px;
+    gap : 2em;
+    margin : auto;
+    padding-bottom :50px;
+    
+}
+.formulaire_contact h2
+{
+    color: #A5B4FC;
+    
+
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin : auto;
+    width: 30%;
+    padding-bottom : 50px;
+    
+}
+form div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+}
+form p
+{
+    display: flex;
+    flex-direction: column;
+}
+form label
+{
+    padding-bottom: 10px;
+}
+form input
+{
+    width: 250px;
+}
+textarea
+{
+    width:525px;
+    height: 150px;
+    margin-bottom :30px;
+}
+.bouton_envoi
+{
+    background-color: #A5B4FC;
+    padding : 15 px;
+    text-align: center;
+    border-radius: 10px;
+    color : white;
+    font-size: 1.6em;
+    font-family: "Manrope", sans-serif;
+}

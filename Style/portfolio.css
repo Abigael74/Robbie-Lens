@@ -1,0 +1,48 @@
+h1
+{
+    padding : 70px;
+}
+.galerie_photo
+{
+    background-color: white;
+    
+}
+
+.portraits_grid , .paysages_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 311px 311px;
+    gap : 15px;
+    margin : 30px;
+}
+.portraits_grid img, .paysages_grid img
+{
+    width: 100%;
+    height :100%;
+    object-fit : cover;
+}
+
+.lien_conteneur_photos
+{
+    position: relative;
+}
+.image-hover
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display : none;
+}
+.lien_conteneur_photos:hover .image-hover
+{
+    display : flex;
+}

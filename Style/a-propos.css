@@ -1,0 +1,71 @@
+
+.a_propos
+{
+    display : flex;
+    flex-direction : column;
+    margin : auto;
+    width: 50%;
+    
+}
+.bloc_texte
+{
+    border-bottom: 1px white solid;
+    border-right: 1px white solid;
+    padding: 20px;
+}
+
+.a_propos h1
+{
+    text-align: center;
+}
+.a_propos h2
+{
+    color: white;
+}
+
+ul
+{
+    list-style: inside;
+    font-size: 1.1em;
+    font-family: "Manrope", sans-serif;
+    color : white;
+    padding-bottom : 30px;
+}
+.encart
+{
+margin:auto;
+margin-top : 50px;
+}
+.tarifs
+{
+    
+    padding-bottom: 60px;
+}
+table
+{
+    margin: auto;
+    border-collapse: collapse;
+    
+    
+}
+caption
+{
+    font-size: 2em;
+    font-family : "Manrope", sans-serif;
+    text-align: center;
+    padding :50px;
+    color: white;
+    margin-top: 60px;
+}
+th
+{
+    padding : 60px 150px 60px 150px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-size: 1.1em;
+    font-family: "Manrope", sans-serif;
+    color : white;
+    
+}
